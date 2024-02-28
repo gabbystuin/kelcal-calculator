@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contianer" id="calculator">
+   
+        <h2 class="k">Kelcal Calculator</h2>
+    <input type="text" placeholder="00:00" id="time" readonly>
+        <input type="" name=""  placeholder="0" id="display" readonly >
+     
+   
+    <div  id="keys">
+    
+        <button class="operator-btn" onclick="calculate(`+`)">+</button>
+        <button  class="red" onclick="calculate(7)">7</button>
+        <button  class="red" onclick="calculate(8)">8</button>
+        <button  class="red"  onclick="calculate(9)">9</button>
+        <button class="operator-btn" onclick="calculate(`-`)">-</button>
+        <button onclick="calculate(4)">4</button>
+        <button onclick="calculate(5)">5</button>
+        <button onclick="calculate(6)">6</button>
+        <button class="operator-btn" onclick="calculate(`*`)">x</button>
+        <button onclick="calculate(1)">1</button>
+        <button onclick="calculate(2)">2</button>
+        <button onclick="calculate(3)">3</button>
+        <button class="operator-btn" onclick="calculate(`/`)">/</button>
+        <button onclick="calculate(0)">0</button>
+        <button  onclick="calculate(`.`)" class="calc">.</button>
+        <button  onclick="Result()"  class="calc" >=</button>
+     <button class="operator-btn" onclick="clr()">C</button>
+    
+      
+        
+    
+        </div >
+    </div>   
+    <script src="script.js"></script>
+</body>
+</html>
